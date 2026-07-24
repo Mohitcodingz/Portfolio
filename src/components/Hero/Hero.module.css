@@ -1,0 +1,56 @@
+.HeroContainer {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}   
+.Left{
+    font-size: 20px;
+    color: white;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.GreenText{
+    color:#7CFF00;
+}
+.Name{
+    width: 400px;
+}
+.Left p{
+    width: 580px;
+}
+ .LinksContainer{
+    width: 100%;
+ margin-top: 20px;
+ }
+.LinkClass{
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 8px;
+   margin-right: 20px;
+   background-color: transparent;
+   color: white;
+   text-decoration: none;
+}
+.LinkClass:hover{
+    background-color: #7CFF00;
+    color: #000000;
+    cursor: pointer;
+}
+.Right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ProfileImage{
+    width: 320px;
+    height: 320px;
+object-fit: contain;
+border-radius: 50%;
+/* border: 1px solid white; */
+box-shadow: 1px 1px 50px #7CFF00;
+}
