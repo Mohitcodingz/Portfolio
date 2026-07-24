@@ -1,9 +1,11 @@
 import React from 'react'
+import Navbar from './components/navbar/Navbar'
+ 
 
 export default function App() {
   return (
-    <div style={{color:"red"}}>
-      This Page will be ready by 25.07.2026
+    <div>
+      <Navbar/>
     </div>
   )
 }

@@ -1,0 +1,50 @@
+.NavbarContainer {
+    font-family: poppins;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px 28px;
+}
+
+.NavbarContainer h1 {
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.NavLinks {
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+
+}
+
+.NavLinks a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.NavLinks a:hover {
+    color: #7CFF00;
+}
+
+.DownloadResume a {
+    text-decoration: none;
+    color: #7CFF00;
+}
+
+.DownloadResume {
+    margin-right: 30px;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #7CFF00;
+}
+
+.DownloadResume a {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
