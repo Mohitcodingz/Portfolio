@@ -4,8 +4,9 @@
     background-color: black;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}   
-.Left{
+}
+
+.Left {
     font-size: 20px;
     color: white;
     margin-left: 120px;
@@ -14,43 +15,55 @@
     justify-content: center;
     gap: 20px;
 }
-.GreenText{
-    color:#7CFF00;
+
+.GreenText {
+    color: #7CFF00;
 }
-.Name{
+
+.Name {
     width: 400px;
 }
-.Left p{
+
+.Left p {
     width: 580px;
 }
- .LinksContainer{
+
+.LinksContainer {
     width: 100%;
- margin-top: 20px;
- }
-.LinkClass{
-    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.LinkClass {
+    padding: 5px 10px;
     border: 1px solid gray;
     border-radius: 8px;
-   margin-right: 20px;
-   background-color: transparent;
-   color: white;
-   text-decoration: none;
+    margin-right: 20px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
 }
-.LinkClass:hover{
+
+.LinkClass:hover {
     background-color: #7CFF00;
     color: #000000;
     cursor: pointer;
 }
+
 .Right {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.ProfileImage{
+
+.ProfileImage {
     width: 320px;
     height: 320px;
-object-fit: contain;
-border-radius: 50%;
-/* border: 1px solid white; */
-box-shadow: 1px 1px 50px #7CFF00;
+    object-fit: contain;
+    border-radius: 50%;
+    /* border: 1px solid white; */
+    box-shadow: 0px 0px 40px rgb(124, 255, 0, 0.45);
 }
