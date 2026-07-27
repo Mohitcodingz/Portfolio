@@ -1,6 +1,6 @@
-import BrandKart from '../../assets/Brandkart.png'
-import Resume from '../../assets/Resume.png'
-import tiger from '../../assets/tiger.png'
+import BrandKart from '../assets/BrandKart.png'
+import Resume from '../assets/Resume.png'
+import tiger from '../assets/tiger.png'
 
 export const projects = [
     {
