@@ -82,7 +82,7 @@
 }
 
 .LeftGitLinks {
-    border-top: 1px solid  rgba(59, 121, 5, 0.653);
+    border-top: 1px solid rgba(59, 121, 5, 0.653);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,6 +92,12 @@
     border-bottom-left-radius: 8px;
 }
 
+.LeftGitLinks:hover,
+.RightGitLinks:hover {
+    
+    background-color: rgb(124, 255, 0);
+}
+
 .LeftGitLinks a,
 .RightGitLinks a {
     text-decoration: none;
@@ -99,10 +105,15 @@
     font-size: 15px;
 }
 
+.LeftGitLinks:hover a,
+.RightGitLinks:hover a{
+    color: black;
+}
+
 .RightGitLinks {
-    background-color: rgba(23, 33, 14); 
+    background-color: rgba(23, 33, 14);
     border-bottom-right-radius: 8px;
-    border-top: 1px solid rgba(59, 121, 5, 0.653) ;
+    border-top: 1px solid rgba(59, 121, 5, 0.653);
     display: flex;
     align-items: center;
     justify-content: center;
