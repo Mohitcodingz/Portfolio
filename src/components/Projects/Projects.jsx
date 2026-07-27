@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './Projects.module.css'
 import { projects } from '../../data/projects'
+import { FaGithub } from "react-icons/fa";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 export default function Projects() {
     return (
         <div className={styles.ProjectsContainer}>
@@ -21,10 +23,11 @@ export default function Projects() {
                             </div>
                             <div className={styles.GitLinks}>
                                 <div className={styles.LeftGitLinks}>
-                                    <a href={e.githubLive}>Live Demo</a>
+                                    <a href={e.githubLive} target='_blank'> <FaArrowUpRightFromSquare /> Live Demo</a>
                                 </div>
                                 <div className={styles.RightGitLinks}>
-                                    <a href={e.githubRepo}> Github</a>
+                                    
+                                    <a href={e.githubRepo} target='_blank'> <FaGithub /> Github</a>
                                 </div>
                             </div>
 

@@ -100,6 +100,10 @@
 
 .LeftGitLinks a,
 .RightGitLinks a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     text-decoration: none;
     color: white;
     font-size: 15px;
