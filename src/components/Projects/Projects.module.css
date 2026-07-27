@@ -10,9 +10,101 @@
     justify-content: center;
     background-color: black;
     flex-direction: column;
-    padding-top: 80px;
+    padding: 80px 0;
+    height: auto;
+    width: auto;
 }
-.ProjectBoxes{
+
+.ProjectBoxes {
+    width: 90%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.ProjectBox {
+    min-height: 350px;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    border: 2px solid rgb(124, 255, 0, 0.45);
+    color: white;
+    padding: 10px;
+    border-radius: 14px;
+    background-color: rgba(0, 61, 0, 0.275);
+    display: flex;
+    flex-direction: column;
+}
+
+.ProjectBox:hover {
+    border: 2px solid rgb(124, 255, 0);
+    cursor: pointer;
+    box-shadow: 0px 0px 40px rgb(124, 255, 0, 0.45);
+}
+
+.ProjectBox img {
     width: 100%;
-    padding: 50px;
+    height: 40%;
+    /* object-fit: contain; */
+}
+
+.ProjectBox h1 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ProjectBox p {
+    min-height: 50px;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.TechBox {
+    font-size: 10px;
+    padding: 5px;
+    border: 1px solid rgb(124, 255, 0, 0.45);
+    background-color: rgba(123, 255, 0, 0.10);
+    border-radius: 7px;
+    color: rgb(124, 255, 0, 0.75);
+    margin-right: 8px;
+}
+
+.GitLinks {
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+
+}
+
+.LeftGitLinks {
+    border-top: 1px solid  rgba(59, 121, 5, 0.653);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgba(59, 121, 5, 0.653);
+    padding: 8px;
+    background-color: rgba(23, 33, 14);
+    border-bottom-left-radius: 8px;
+}
+
+.LeftGitLinks a,
+.RightGitLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.RightGitLinks {
+    background-color: rgba(23, 33, 14); 
+    border-bottom-right-radius: 8px;
+    border-top: 1px solid rgba(59, 121, 5, 0.653) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
 }

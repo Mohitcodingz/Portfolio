@@ -10,17 +10,23 @@ export default function Projects() {
                 {
                     projects.map((e) => {
                         return <div className={styles.ProjectBox} key={e.id}>
-                            <img src={e.image} alt="" /> {e.title} {e.description}
+                            <img src={e.image} alt="" /> <h1>{e.title}</h1> <p>{e.description}</p>
                             <div className={styles.TechContainer}>
                                 {
 
                                     e.technologies.map((f, index) => (
-                                        <span key={index}>{f}</span>
+                                        <span key={index} className={styles.TechBox}>{f}</span>
                                     ))
                                 }
                             </div>
-                            <a href={e.githubRepo}>Live Demo</a>
-                            <a href={e.githubLive}> Github</a>
+                            <div className={styles.GitLinks}>
+                                <div className={styles.LeftGitLinks}>
+                                    <a href={e.githubLive}>Live Demo</a>
+                                </div>
+                                <div className={styles.RightGitLinks}>
+                                    <a href={e.githubRepo}> Github</a>
+                                </div>
+                            </div>
 
                         </div>
                     })

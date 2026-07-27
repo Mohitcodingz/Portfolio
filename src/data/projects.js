@@ -14,7 +14,7 @@ export const projects = [
     },
     {
         id: 2,
-        title: "NTCA.gov.in-ModifiedWebPage",
+        title: "NTCA.gov.in WebPage",
         description: "A redesigned and responsive version of the NTCA website with an improved modern UI and user experience.",
         image: tiger,
         githubLive: "https://ntca-sample-page.vercel.app/",
