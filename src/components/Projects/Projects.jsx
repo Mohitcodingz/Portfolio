@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 export default function Projects() {
     return (
-        <div className={styles.ProjectsContainer}>
+        <div className={styles.ProjectsContainer} id='Projects'>
             <span style={{ color: '#7CFF00', paddingBottom: "20px" }}>FEATURED PROJECTS</span>
             <h5 style={{ fontSize: '29px', color: 'white' }}>Some Things I've Built</h5>
             <div className={styles.ProjectBoxes}>

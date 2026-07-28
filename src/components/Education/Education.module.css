@@ -1,0 +1,58 @@
+.EducationContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.EducationBoxes {
+    margin: 50px 0;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.EducationBox {
+    border: 1px solid white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+      background: #111;
+      border: 1px solid rgb(124, 255, 0, 0.45);
+    border-radius: 10px;
+}
+
+.IconBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 20px;
+}
+
+.Icon {
+    width: 100%;
+    height: 100%;
+    color: white;
+    
+    border-radius: 50%;
+    border: 1px solid rgb(124, 255, 0, 0.45);
+    background-color: rgba(123, 255, 0, 0.10);
+    color: rgb(124, 255, 0, 0.75);
+padding: 8px;
+}
+
+
+.EducationInfo {
+    color: white;
+    width: 80%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.EducationInfo h4{
+    font-size: 13px;
+}

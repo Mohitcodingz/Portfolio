@@ -18,10 +18,10 @@
     flex-direction: row;
     margin: 50px 10px;
     padding: 18px 40px;
-    border: 1px solid rgb(124, 255, 0, 0.45);
+   border: 1px solid rgb(124, 255, 0, 0.45);
     border-radius: 10px;
     color: white;
-    background-color: rgba(0, 61, 0, 0.275);
+     background: #111;
 }
 
 .LeftBox {

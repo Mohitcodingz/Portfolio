@@ -4,7 +4,7 @@ import AboutImage from '../../assets/about.jpg'
 import { FaCheck } from 'react-icons/fa'
 export default function About() {
     return (
-        <div className={styles.AboutContainer}>
+        <div className={styles.AboutContainer} id='About'>
             <div className={styles.Left}>
                 <img src={AboutImage} alt="" className={styles.AboutImage} />
             </div>

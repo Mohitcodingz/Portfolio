@@ -18,7 +18,7 @@ export default function Hero() {
                 <div className={styles.LinksContainer}>
                     {
                         socialMedia.map((e) => {
-                            return <a key={e.id} className={styles.LinkClass} href={e.url}><e.logo/> {e.title}</a>
+                            return <a key={e.id} className={styles.LinkClass} href={e.url}><e.logo style={{ color: e.color}}   /> {e.title}</a>
                         })
                     }
                 </div>

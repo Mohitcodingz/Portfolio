@@ -12,3 +12,18 @@
 # always remeber when you try to push the new project do this:- gh repo create myproject --public --source=. --remote=origin --push 
 - use .{styles.Container} to create something like : -  <div className={styles.Container}> </div>
 - whhen we use .map() make sure u use return and src={e.image} for images and objects. and for image just {e.title}
+
+# {
+        id: 5, 
+        icon: FaGithub, // this is component to consume this we write <e.icon/> not {e.icon} because this is not written in the qoutes then it's an react component and we render the component like this <e.icon/>
+        title: "GitHub", //{e.title}
+        value: "github.com/Mohitcodingz", //{e.value}
+        href: "https://github.com/Mohitcodingz",{e.href}
+    }, 
+
+    * Mindset:- what type and what to use with them
+ Array      → map()
+String     → {name}
+Object     → person.name
+Function   → greet()
+Component  → <Component />
