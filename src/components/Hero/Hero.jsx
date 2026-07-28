@@ -5,7 +5,7 @@ import { socialMedia } from '../../data/socialMedia'
 import profile from "../../assets/profile.png";
 export default function Hero() {
     return (
-        <div className={styles.HeroContainer}>
+        <div className={styles.HeroContainer} id='Hero'>
             <div className={styles.Left}>
                 <p className={styles.GreenText}>
                     HI, I'M
