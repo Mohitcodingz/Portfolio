@@ -8,7 +8,7 @@ export const projects = [
         title: "BrandKart E-Commerce",
         description: "Full-Stack e-commerce platform with product management, cart, authentication and more",
         image: BrandKart,
-        githubLive: "#",
+        githubLive: "",
         githubRepo: "https://github.com/Mohitcodingz/BrandKartEcommerce",
         technologies: ["MERN Stack", "Redux", "Tailwind CSS"]
     },
@@ -28,7 +28,7 @@ export const projects = [
             "A modern responsive portfolio showcasing my projects, skills and experience.",
         image: Resume,
         githubRepo: "https://github.com/Mohitcodingz/Portfolio",
-        githubLive: "https://portfolio-sigma-bice-42.vercel.app/",
+        githubLive: "https://mohitsinghportfolio-sigma.vercel.app/",
         technologies: ["React", "Vite", "CSS Modules"],
     }
 ]
