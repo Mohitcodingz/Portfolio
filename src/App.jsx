@@ -14,14 +14,14 @@ export default function App() {
   return (
     <div>
       <Navbar/>
-      <Hero/>
+      {/* <Hero/>
       <About/>
       <Skills/>
       <Projects/>
       <Experience/>
       <Education/>
       <Contact/>
-      <Footer/>
+      <Footer/> */}
     </div>
   )
 }

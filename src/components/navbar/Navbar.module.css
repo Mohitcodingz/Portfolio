@@ -1,11 +1,19 @@
 .NavbarContainer {
+    width: 100%;
     font-family: poppins;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(255, 0, 0);
     padding: 20px 28px;
+}
+
+@media (max-width:350px) {
+    .NavbarContainer {
+        width: 100vw;
+        background-color: #7CFF00;
+    }
 }
 
 .NavbarContainer h1 {
@@ -18,7 +26,6 @@
     display: flex;
     gap: 50px;
     font-size: 20px;
-
 }
 
 .NavLinks a {
