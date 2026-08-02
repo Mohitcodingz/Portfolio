@@ -7,13 +7,14 @@ import Experience from './components/Experience/Experience'
 import Education from './components/Education/Education'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-import Navbar from './components/Navbar/Navbar'
+import NavbarFile from './components/NavbarFile/NavbarFile'
+
  
 
 export default function App() {
   return (
     <div>
-     <Navbar/>
+   <NavbarFile/>
       <Hero/>
       <About/>
       <Skills/>
