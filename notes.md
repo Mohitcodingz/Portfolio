@@ -27,3 +27,13 @@ String     → {name}
 Object     → person.name
 Function   → greet()
 Component  → <Component />
+
+<!-- problem that I faced creating this with the solutions of them -->
+
+- I was unable to make the navbar responsive: -
+reasons were: - 
+1. default gaps should be less, then for device size accordingly set.
+2. never use 100vw use 100% instead.
+3. not using the box-sizing : border-box;
+4.  What went wrong: Forcing 1 logo + 7 links + 1 button onto a single horizontal row (flex-direction: row) without flex-wrap: wrap or a mobile media query breaks on any screen under 1200px.
+5."When using justify-content: space-between, avoid adding extra margin-right or margin-left to the end items—let Flexbox handle edge spacing using container padding."
