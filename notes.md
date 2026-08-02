@@ -10,7 +10,7 @@
 # keypoint is that make the code more reusalbe as much as you can if it's possible.
 # use display:inline-flex; incase when the any element is taking full width of the it's parent using this will take only neccessary
 # always remeber when you try to push the new project do this:- gh repo create myproject --public --source=. --remote=origin --push 
-- use .{styles.Container} to create something like : -  <div className={styles.Container}> </div>
+- use .{styles.Container} to create something like : -  div className={styles.Container}> div
 - whhen we use .map() make sure u use return and src={e.image} for images and objects. and for image just {e.title}
 
 # {
@@ -26,7 +26,7 @@
 String     → {name}
 Object     → person.name
 Function   → greet()
-Component  → <Component />
+Component  → Component
 
 <!-- problem that I faced creating this with the solutions of them -->
 
