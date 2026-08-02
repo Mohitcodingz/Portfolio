@@ -1,4 +1,4 @@
-.NavbarContainer {
+/* .NavbarContainer {
     width: 100%;
     font-family: poppins;
     display: flex;
@@ -54,4 +54,112 @@
     color: black;
     font-weight: bold;
     font-size: 20px;
+} */
+
+.NavbarContainer {
+    width: 100%;
+    font-family: poppins;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black; /* changed red to black */
+    padding: 20px 28px;
+    box-sizing: border-box;
+}
+
+.NavbarContainer h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 28px;
+    white-space: nowrap;
+}
+
+.NavLinks {
+    display: flex;
+    gap: 35px;
+    font-size: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.NavLinks a {
+    text-decoration: none;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+.NavLinks a:hover {
+    color: #7CFF00;
+}
+
+.DownloadResume {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #7CFF00;
+    white-space: nowrap;
+}
+
+.DownloadResume a {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* ================= Pure Responsive CSS (No Hamburger) ================= */
+
+/* Tablet Screens (<= 1100px): Scales gaps and text down */
+@media (max-width: 1100px) {
+    .NavbarContainer {
+        padding: 16px 20px;
+    }
+
+    .NavbarContainer h1 {
+        font-size: 24px;
+    }
+
+    .NavLinks {
+        gap: 20px;
+        font-size: 16px;
+    }
+
+    .DownloadResume {
+        padding: 8px 16px;
+    }
+
+    .DownloadResume a {
+        font-size: 16px;
+    }
+}
+
+/* Mobile Screens (<= 850px): Stacks logo, links, and button cleanly */
+@media (max-width: 850px) {
+    .NavbarContainer {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 16px 14px;
+    }
+
+    .NavLinks {
+        gap: 12px 18px;
+        font-size: 15px;
+    }
+}
+
+/* Small Mobile Screens (<= 480px) */
+@media (max-width: 480px) {
+    .NavbarContainer h1 {
+        font-size: 20px;
+    }
+
+    .NavLinks {
+        gap: 10px 14px;
+        font-size: 14px;
+    }
+
+    .DownloadResume a {
+        font-size: 14px;
+    }
 }
